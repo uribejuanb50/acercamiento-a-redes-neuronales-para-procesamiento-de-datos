@@ -22,11 +22,6 @@ def main() :
 
     data_frame = preprocessing.dejar_solo_tuplas_por_valor(data_frame, 0, COLUMNA_TRAMPA)
     data_frame = preprocessing.cambiar_variables(data_frame, OBJETIVOS, CAMBIO_VARIABLES_OBJETIVO)
-    
-    print(data_frame.head())
-    
-    
-
 
     data_loader.splitter(data_frame, CARACTERISTICAS, OBJETIVOS)
     return 

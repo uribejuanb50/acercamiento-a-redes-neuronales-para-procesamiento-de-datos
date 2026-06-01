@@ -21,11 +21,4 @@ def validar_valores_unicos(col, esperados, valores_unicos) :
             f"esperados: {esperados}\n"
             f"valores únicos: {valores_unicos}"
         )
-    
-def dejar_solo_tuplas_por_valor(data_frame, valor, columna) :
 
-    data_frame_copia = data_frame.copy()
-
-    data_frame_copia = data_frame_copia[data_frame_copia[columna] == valor]
-
-    return data_frame_copia.drop(columns = [columna])

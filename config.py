@@ -11,30 +11,20 @@ OUTPUTS = RAIZ / "outputs"
 MATRICES = OUTPUTS / "matrices"
 PLOTS = OUTPUTS / "plots"
 
-COLUMNAS = ["id", "age", "gender", "education", "country", "ethnicity", 
-           "nscore", "escore", "oscore", "ascore", "cscore", "impuslive", 
-           "ss", "alcohol", "amphet", "amyl", "benzos", "caff", "cannabis", 
-           "choc", "coke", "crack", "ecstasy", "heroin", "ketamine", "legalh", 
-           "lsd", "meth", "mushrooms", "nicotine", "semer", "vsa"]
+COLUMNAS = ["lettr", "x-box", "y-box", "width", "high", "onpix",
+           "x-bar", "y-bar", "x2bar", "y2bar", "xybar",
+           "x2ybr", "xy2br", "x-ege", "xegvy", "y-ege", "yegvx"]
 
-COLUMNA_TRAMPA = "semer"
+CARACTERISTICAS = ["x-box", "y-box", "width", "high", "onpix",
+           "x-bar", "y-bar", "x2bar", "y2bar", "xybar",
+           "x2ybr", "xy2br", "x-ege", "xegvy", "y-ege", "yegvx"]
 
-CARACTERISTICAS = ["age", "gender", "education", "country", "ethnicity", 
-           "nscore", "escore", "oscore", "ascore", "cscore", "impuslive", 
-           "ss"]
-
-OBJETIVOS = ["alcohol", "amphet", "amyl", "benzos", "caff", "cannabis", 
-           "choc", "coke", "crack", "ecstasy", "heroin", "ketamine", "legalh", 
-           "lsd", "meth", "mushrooms", "nicotine", "vsa"]
+OBJETIVOS = ["lettr"]
 
 CAMBIO_VARIABLES_OBJETIVO = {
-    "CL0" : 0,
-    "CL1" : 1,
-    "CL2" : 2,
-    "CL3" : 3,
-    "CL4" : 4,
-    "CL5" : 5,
-    "CL6" : 6
+    'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8, 
+    'J': 9, 'K': 10, 'L': 11, 'M': 12, 'N': 13, 'O': 14, 'P': 15, 'Q': 16, 
+    'R': 17, 'S': 18, 'T': 19, 'U': 20, 'V': 21, 'W': 22, 'X': 23, 'Y': 24, 'Z': 25
 }
 
 if  __name__ == "__main__" :
