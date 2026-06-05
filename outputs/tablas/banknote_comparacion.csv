@@ -1,0 +1,4 @@
+"","Modelo","Exactitud","Precision","Sensibilidad","Especificidad","F1"
+"1","Red Neuronal (ANN)",1,1,1,1,1
+"2","Arbol de Decision",0.9684,0.9511,0.9777,0.9614,0.9642
+"3","SVM (RBF)",1,1,1,1,1

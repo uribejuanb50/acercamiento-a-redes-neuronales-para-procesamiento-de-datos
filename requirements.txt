@@ -1,0 +1,5 @@
+# Paquetes de R requeridos (instalar con install.packages)
+neuralnet   # >= 1.44.2  (entrenamiento de la red feed-forward)
+e1071       # SVM
+rpart       # Árbol de decisión
+MASS        # dependencia de neuralnet
